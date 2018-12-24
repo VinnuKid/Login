@@ -27,6 +27,7 @@ namespace LoginForm
             this.Close();
         }
     
+        // happy
         private void button1_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection("Data Source=vinod-PC;Initial Catalog=Sample;Integrated Security=True");
